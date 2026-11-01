@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "tp-1",
+    "slug": "tp-1",
+    "version": "1.0.0",
+    "experiments": {
+      "baseUrl": "/TrabajoPractico1"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
