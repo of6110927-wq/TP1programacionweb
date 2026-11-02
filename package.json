@@ -1,17 +1,22 @@
 {
   "name": "tp-1",
   "version": "1.0.0",
-  "homepage": "https://of6110927-wq.github.io/TrabajoPractico1/",
+  "homepage": "https://github.io",
   "dependencies": {
-    "@emailjs/browser": "*",
-    "@expo/vector-icons": "^15.0.3",
-    "react-native-paper": "4.9.2",
-    "react-native-webview": "13.15.0",
-    "react": "19.3.1",
-    "react-dom": "19.3.1",
-    "react-native-web": "0.21.4"
+    "@emailjs/browser": "^4.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
-    "build": "npx expo export:web"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      ["react-app", { "runtime": "automatic" }]
+    ]
   }
 }
